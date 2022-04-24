@@ -30,3 +30,24 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 /*-------------------------------------------*/
+.main_block{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.field{
+margin-top: 150px;
+flex: 0 1 800px;
+height: 400px;
+border: 1px solid #000;
+position: relative;
+}
+
+.ball_body{
+width: 40px;
+height: 40px;
+border: 1px solid rgb(214, 119, 11);
+border-radius: 50%;
+position: absolute;
+}
